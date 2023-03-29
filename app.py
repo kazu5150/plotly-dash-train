@@ -19,7 +19,7 @@ df =  pd.DataFrame({
     devidend_name : devident
 })
 
-fig = px.bar(df, x=month_name, y=devidend_name)
+fig = px.line(df, x=month_name, y=devidend_name)
 
 
 
